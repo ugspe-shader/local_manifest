@@ -1,1 +1,13 @@
-
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+          
+  <remote name="los"
+          fetch="https://github.com/LineageOS" />
+      
+  <!-- Sync trees -->
+        <project path="device/asus/X00TD" name="android_device_asus_X00TD" remote="los" revision="lineage-16.0" clone-depth="1" />
+        <project path="device/asus/sdm660-common" name="android_device_asus_sdm660-common" remote="los" revision="lineage-16.0" clone-depth="1" />
+        <project path="vendor/asus" name="android_vendor_asus_sdm660" remote="los" revision="lineage-16.0" clone-depth="1" />
+        <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm660" remote="los" revision="lineage-16.0" clone-depth="1" />
+          
+</manifest>
