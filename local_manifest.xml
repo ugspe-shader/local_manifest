@@ -7,7 +7,7 @@
           fetch="https://github.com/dimas-ady" />
           
   <!-- Sync trees -->
-        <project path="device/asus/X00TD" name="device_asus_X00TD" remote="me" revision="lineage-17.1" clone-depth="1" />
+        <project path="device/asus/X00TD" name="android_device_asus_X00TD" remote="sdm660-devs" revision="lineage-17.1" clone-depth="1" />
         <project path="vendor/asus" name="proprietary_vendor_asus" remote="sdm660-devs" revision="lineage-17.1" clone-depth="1" />
         <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm660" remote="sdm660-devs" revision="lineage-17.1" clone-depth="1" />
           
