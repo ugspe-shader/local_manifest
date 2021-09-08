@@ -3,9 +3,11 @@
           
   <remote name="trav"
           fetch="https://github.com/travarilo" />
-      
+  <remote name="me"
+          fetch="https://github.com/dimas-ady" />
+          
   <!-- Sync trees -->
-        <project path="device/asus/X00T" name="device_asus_X00T" remote="trav" revision="lineage-17.1" clone-depth="1" />
+        <project path="device/asus/X00T" name="device_asus_X00T" remote="me" revision="lineage-17.1" clone-depth="1" />
         <project path="vendor/asus" name="proprietary_vendor_asus" remote="trav" revision="lineage-17.1" clone-depth="1" />
         <project path="kernel/asus/sdm660" name="kernel_asus_sdm660" remote="trav" revision="master" clone-depth="1" />
           
