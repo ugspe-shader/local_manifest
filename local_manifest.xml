@@ -9,5 +9,6 @@
   <!-- Sync trees -->
         <project path="device/asus/X00TD" name="android_device_asus_X00TD" remote="me" revision="lineage-15.1-microg" clone-depth="1" />
         <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm660" remote="los" revision="lineage-15.1" clone-depth="1" />
+        <project path="frameworks/base" name="android_frameworks_base" remote="me" revision="lineage-15.1" clone-depth="1" />
         <project name="lineageos4microg/android_prebuilts_prebuiltapks" path="prebuilts/prebuiltapks" remote="github" revision="master" />
 </manifest>
