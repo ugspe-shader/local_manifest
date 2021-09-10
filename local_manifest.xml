@@ -5,9 +5,11 @@
           fetch="https://github.com/dimas-ady" />
   <remote name="los"
           fetch="https://github.com/LineageOS" />
-          
+  <remote name="kud"
+          fetch="https://github.com/KudProject" />
+
   <!-- Sync trees -->
         <project path="device/asus/X00TD" name="android_device_asus_X00TD" remote="me" revision="lineage-15.1-microg" clone-depth="1" />
         <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm660" remote="los" revision="lineage-15.1" clone-depth="1" />
-        <project name="lineageos4microg/android_prebuilts_prebuiltapks" path="prebuilts/prebuiltapks" remote="github" revision="master" />
+        <project path="vendor/asus" name="proprietary_vendor_asus" remote="kud" revision="lineage-15.1" clone-depth="1" />          
 </manifest>
