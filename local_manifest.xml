@@ -7,9 +7,19 @@
           fetch="https://github.com/LineageOS" />
   <remote name="kud"
           fetch="https://github.com/KudProject" />
+  <remote name="aosp"
+           fetch="https://android.googlesource.com"
+           review="android-review.googlesource.com"
+           revision="refs/tags/android-8.1.0_r52" />
+
+  <remove-project path="device/generic/car" name="device/generic/car" groups="pdk" remote="aosp" />
+  <remove-project path="device/generic/mini-emulator-arm64" name="device/generic/mini-emulator-arm64" groups="pdk" remote="aosp" />
+  <remove-project path="device/generic/mini-emulator-armv7-a-neon" name="device/generic/mini-emulator-armv7-a-neon" groups="pdk" remote="aosp" />
+  <remove-project path="device/generic/mini-emulator-x86" name="device/generic/mini-emulator-x86" groups="pdk" remote="aosp" />
+  <remove-project path="device/generic/mini-emulator-x86_64" name="device/generic/mini-emulator-x86_64" groups="pdk" remote="aosp" />
 
   <!-- Sync trees -->
-        <project path="device/asus/X00TD" name="android_device_asus_X00TD" remote="los" revision="lineage-15.1" clone-depth="1" />
+        <project path="device/generic/mini-emulator-arm64" name="android_device_asus_X00TD" remote="los" revision="lineage-15.1" clone-depth="1" />
         <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm660" remote="los" revision="lineage-15.1" clone-depth="1" />
         <project path="vendor/asus" name="proprietary_vendor_asus" remote="kud" revision="lineage-15.1" clone-depth="1" />          
 </manifest>
