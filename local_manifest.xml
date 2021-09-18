@@ -19,7 +19,7 @@
   <remove-project path="device/generic/mini-emulator-x86_64" name="device/generic/mini-emulator-x86_64" groups="pdk" remote="aosp" />
 
   <!-- Sync trees -->
-        <project path="device/generic/mini-emulator-arm64" name="android_device_asus_X00TD" remote="los" revision="lineage-15.1" clone-depth="1" />
+        <project path="device/asus/X00TD" name="android_device_asus_X00TD" remote="los" revision="lineage-15.1" clone-depth="1" />
         <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm660" remote="los" revision="lineage-15.1" clone-depth="1" />
         <project path="vendor/asus" name="proprietary_vendor_asus" remote="kud" revision="lineage-15.1" clone-depth="1" />          
 </manifest>
