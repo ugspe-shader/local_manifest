@@ -9,6 +9,6 @@
   <!-- Sync trees -->
         <project path="device/asus/X00T" name="android_device_asus_X00T" remote="arrow_device" revision="arrow-11.0-4.4" clone-depth="1" />
         <project path="vendor/asus" name="android_vendor_asus_X00T" remote="arrow_device" revision="arrow-11.0-4.4" clone-depth="1" />
-
-          
+        <project path="kernel/asus/sdm660" name="kernel_asus_sdm660" remote="me" revision="arrow-11.0-4.4" clone-depth="1" />
+   
 </manifest>
