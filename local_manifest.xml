@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
           
-  <remote name="trav"
-          fetch="https://github.com/travarilo" />
+  <remote name="arrow_device"
+          fetch="https://github.com/ArrowOS-Devices" />
   <remote name="me"
           fetch="https://github.com/dimas-ady" />
           
   <!-- Sync trees -->
-        <project path="device/asus/X00T" name="device_asus_X00T" remote="me" revision="lineage-17.1" clone-depth="1" />
-        <project path="vendor/asus" name="proprietary_vendor_asus" remote="trav" revision="lineage-17.1" clone-depth="1" />
+        <project path="device/asus/X00T" name="android_device_asus_X00T" remote="arrow_device" revision="arrow-11.0-4.4" clone-depth="1" />
+        <project path="vendor/asus" name="android_vendor_asus_X00T" remote="arrow_device" revision="arrow-11.0-4.4" clone-depth="1" />
+
           
 </manifest>
